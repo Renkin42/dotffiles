@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Shut Down
+Comment=Shut down the system
+Exec=loginctl poweroff
+Icon=preferences-system-power
+Terminal=false
+Actions=reboot;suspend;logout
+
+[Desktop Action reboot]
+Name=Reboot
+Exec=loginctl reboot
+
+[Desktop Action suspend]
+Name=Suspend
+Exec=loginctl suspend
+
+[Desktop Action logout]
+Name=Log Out
+Exec=hyprctl dispatch exit
