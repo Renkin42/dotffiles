@@ -18,3 +18,5 @@ fi
 # Put your fun stuff here.
 
 eval "$(thefuck --alias)"
+complete -cf doas
+
