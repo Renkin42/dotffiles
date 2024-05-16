@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Shiness: The Lightning Kingdom
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/366640
+Icon=steam_icon_366640
+Terminal=false
+Type=Application
+Categories=Game;
