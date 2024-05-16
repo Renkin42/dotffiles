@@ -2,7 +2,7 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/renkin42/.gtkrc-2.0.mine"
-gtk-theme-name="Sweet-Dark"
+gtk-theme-name="Sweet"
 gtk-icon-theme-name="Sweet-Rainbow"
 gtk-font-name="Cantarell 11"
 gtk-cursor-theme-name="Adwaita"
