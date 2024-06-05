@@ -8,3 +8,6 @@ set expandtab
 if argc() != 0
     startinsert
 endif
+autocmd TerminalOpen * setlocal nonumber
+tnoremap <esc><esc> <c-\><c-n>
+command TT tab term ++close

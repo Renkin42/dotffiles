@@ -17,6 +17,6 @@ fi
 
 # Put your fun stuff here.
 
-eval "$(thefuck --alias)"
-complete -cf doas
+complete -F _root_command doas
+complete -f doasedit
 
