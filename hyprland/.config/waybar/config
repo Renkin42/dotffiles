@@ -31,6 +31,7 @@
     },
     "keyboard-state#caps": {
         "capslock": true,
+        "device-path": "/dev/input/by-id/usb-Tom_Wong-Cornall_Ellipse_wcass_Purdea_Andrei_modelfkeyboards.com_Brand_New_F62_F77_Model_F_Keyboard_by_Model-event-kbd",
         "format": "A {icon}",
         "format-icons": {
             "locked": "",
@@ -39,6 +40,7 @@
     },
     "keyboard-state#num": {
         "numlock": true,
+        "device-path": "/dev/input/by-id/usb-Tom_Wong-Cornall_Ellipse_wcass_Purdea_Andrei_modelfkeyboards.com_Brand_New_F62_F77_Model_F_Keyboard_by_Model-event-kbd",
         "format": "1 {icon}",
         "format-icons": {
             "locked": "",
@@ -47,6 +49,7 @@
     },
     "hyprland/window": {
         "icon": true,
+        "icon-size": 16,
         "separate-outputs": true
     },
     "sway/mode": {
